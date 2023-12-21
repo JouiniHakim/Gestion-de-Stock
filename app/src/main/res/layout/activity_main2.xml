@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/ajouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ajouter"
+        />
+    <Button
+        android:id="@+id/supprimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="supprimer"
+        android:layout_below="@+id/ajouter"
+        />
+
+    <Button
+        android:id="@+id/voirleproduit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voir le produit"
+        android:layout_below="@+id/supprimer"
+        />
+
+    <Button
+        android:id="@+id/voirlinventaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="voir l'inventaire"
+        android:layout_below="@+id/voirleproduit"
+        />
+
+</RelativeLayout>

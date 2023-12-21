@@ -1,0 +1,63 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Code" />
+
+    <EditText
+        android:id="@+id/editTextProduit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCode"
+        android:textSize="20sp"
+        android:hint="Produit" />
+
+    <EditText
+        android:id="@+id/editTextCategorie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextProduit"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:hint="Catégorie" />
+
+    <EditText
+        android:id="@+id/editTextPrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCategorie"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:hint="Prix" />
+
+    <EditText
+        android:id="@+id/editTextQuantite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPrix"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:hint="Quantité" />
+
+
+
+    <Button
+        android:id="@+id/buttonAjouter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextQuantite"
+        android:layout_marginTop="16dp"
+        android:text="Ajouter" />
+
+</RelativeLayout>
